@@ -14,7 +14,7 @@ function App() {
         <WorkExperience />
         <Contact />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

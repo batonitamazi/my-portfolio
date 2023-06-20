@@ -1,0 +1,75 @@
+#about {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  padding: 20px;
+}
+
+.left-container {
+  padding-left: 100px;
+  width: 55%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  align-items: flex-start;
+}
+.right-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 70%;
+  width: 45%;
+
+}
+.left-container h4 {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.left-container p {
+  word-break: break-all;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: 2px;
+
+  /* Add your desired styles for the text paragraphs */
+}
+.left-container h3 {
+  color: #a52a2a;
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: 300;
+
+}
+
+.left-container button {
+  background: none;
+  padding: 20px 60px;
+  border: 1px solid #2f4f4f;
+  cursor: pointer;
+  border-radius: 3%;
+  font-family: "Montserrat";
+  /* Add your desired styles for the button */
+}
+.left-container button:hover {
+  border: 2px solid #2f4f4f;
+}
+
+.right-container img {
+  height: 100%;
+  object-fit: contain;
+  /* Add your desired styles for the image */
+}
+.button-container {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
