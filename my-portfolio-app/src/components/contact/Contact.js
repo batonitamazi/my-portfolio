@@ -1,5 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import './contact.css'
 import {
   faGithub,
   faFacebook,
@@ -8,7 +9,7 @@ import {
 
 const Contact = () => {
   return (
-    <section id="contact">
+    <section id="contact" >
       <h1>Contact</h1>
       <p>You can reach me through the following channels:</p>
       <ul>
