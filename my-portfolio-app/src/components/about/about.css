@@ -26,9 +26,10 @@
 
 }
 .left-container h4 {
-  font-family: "Montserrat";
-  font-size: 24px;
-  font-weight: 300;
+  font-family: 'Rock 3D', cursive;
+  font-size: 42px;
+  font-weight: 700;
+  color: #f3d374;
 }
 
 .left-container p {
@@ -37,14 +38,15 @@
   font-size: 18px;
   font-weight: 200;
   letter-spacing: 2px;
+  color: #747169;
 
   /* Add your desired styles for the text paragraphs */
 }
 .left-container h3 {
-  color: #a52a2a;
-  font-family: "Montserrat";
-  font-size: 36px;
-  font-weight: 300;
+  color: #f7cd52;
+  font-family: 'Rock 3D', cursive;
+  font-size: 32px;
+  font-weight: 700;
 
 }
 
@@ -53,12 +55,13 @@
   padding: 20px 60px;
   font-size: 16px;
   font-weight: 500;
-  border: 1px solid #CD5C5C;
+  border: 1px solid #f7cd52;
   cursor: pointer;
   border-radius: 3%;
   font-family: "Montserrat";
   position: relative;
   overflow: hidden;
+  color: #f7cd52;
 }
 
 .left-container button::before {
@@ -68,7 +71,7 @@
   left: 0;
   width: 0;
   height: 100%;
-  background-color: #FA8072;
+  background-color: #f7cd52;
   z-index: -1;
   transition: width 0.3s ease;
 }
@@ -76,6 +79,9 @@
 .left-container button:hover::before {
   width: 100%;
   border: none;
+}
+.left-container button:hover {
+  color: #747169;
 }
 
 .left-container button:focus {

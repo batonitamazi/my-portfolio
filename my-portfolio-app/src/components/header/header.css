@@ -43,7 +43,7 @@ nav ul li a {
   font-family: 'Montserrat';
   text-decoration: none;
   position: relative;
-  color: #A52A2A;
+  color: #e9c456;
   z-index: 1;
 }
 
@@ -52,5 +52,5 @@ nav ul li:hover::before,
 nav ul li:hover::after {
   margin: 20px;
   width: 100%;
-  background-color: #A52A2A; /* Final color after animation */
+  background-color: #e9c456; /* Final color after animation */
 }
