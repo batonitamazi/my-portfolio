@@ -30,15 +30,10 @@ const About = () => {
         </div>
       </div>
       <div className="container right-container">
-        <div
-          style={{
-            width: "70%",
-            height: "100%",
-            backgroundColor: "gray",
-            marginRight: "40px",
-          }}
-        ></div>
-        {/* <img src="./assets/my-picture.jpg" alt="Tamaz Mirianashvili Developer" /> */}
+        <img
+          src="./assets/my-picture.jpg"
+          alt="Tamaz Mirianashvili Developer"
+        />
       </div>
     </section>
   );

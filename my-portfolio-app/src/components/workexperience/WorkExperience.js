@@ -6,26 +6,34 @@ const WorkExperience = () => {
     <section id="work">
       <h1>Work Experience</h1>
       <ul className="working-experience-list">
-        <li>
+        <li className="work-experience-list-item">
           <div className="work-item">
-              <img src="./assets/logo.png" alt="Company 1 Logo" />
-              <div className="company-info">
-                <h2>Company 1</h2>
-                <h3>Job Title 1</h3>
-                <p>Date - Date</p>
-                <p>Description of your work experience.</p>
-              </div>
+            <img src="./assets/phubber.png" alt="Phubber logo" />
+            <div className="company-info">
+              <h2>Phubber</h2>
+              <h3>Mobile Application Tester/Analitycs</h3>
+              <p>2021 June - 2022 June</p>
+              <p>
+                I was working on Ecommerce Mobile Application written in React
+                native ⚛️. I was writing test cases and doing some bug 🪲
+                analytics 🔍
+              </p>
+            </div>
           </div>
         </li>
-        <li>
+        <li className="work-experience-list-item">
           <div className="work-item">
-              <img src="./assets/logo.png" alt="Company 2 Logo" />
-              <div className="company-info">
-                <h2>Company 2</h2>
-                <h3>Job Title 2</h3>
-                <p>Date - Date</p>
-                <p>Description of your work experience.</p>
-              </div>
+            <img src="./assets/fina.jpg" alt="Fina Logo" />
+            <div className="company-info">
+              <h2>Fina</h2>
+              <h3>Full-Stack Software Engineer</h3>
+              <p>2023 March - Ongoing</p>
+              <p>
+                I am working on a Full Stack ERP Systems, which is Written in
+                Angular and asp.net core Framework so am doing Full Stacking
+                things 😁
+              </p>
+            </div>
           </div>
         </li>
       </ul>

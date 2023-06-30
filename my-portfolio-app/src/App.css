@@ -1,7 +1,7 @@
 /* styles.css */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat";
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -9,15 +9,11 @@ body {
   background-color: #fef7e0;
 }
 
-
-
 nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
-
 
 main {
   display: block;
@@ -27,7 +23,6 @@ main {
   overflow-y: scroll;
   scroll-behavior: smooth;
   overflow-x: hidden;
-
 }
 
 h1 {
