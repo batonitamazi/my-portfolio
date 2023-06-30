@@ -6,8 +6,16 @@ import {
   faFacebook,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import tamazimirianashvili from "../../assets/tamazimirianashviliCV.pdf";
 
 const Contact = () => {
+  function downloadResume() {
+    const link = document.createElement("a");
+    link.href = tamazimirianashvili;
+    link.download = "resume.pdf";
+    link.click();
+  }
+
   return (
     <section id="contact">
       <h1>Contact Me📞</h1>
@@ -30,7 +38,9 @@ const Contact = () => {
             <button type="submit">Send</button>
           </form>
         </div>
-        <button className="resume-button">Download my Resume</button>
+        <button className="resume-button" onClick={downloadResume}>
+          Download my Resume
+        </button>
 
         <div className="footer-container">
           <ul className="footer-links">

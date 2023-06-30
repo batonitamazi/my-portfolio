@@ -7,10 +7,10 @@ const WorkExperience = () => {
       <h1>Work Experience</h1>
       <ul className="working-experience-list">
         <li className="work-experience-list-item">
-          <div className="work-item">
-            <img src="./assets/phubber.png" alt="Phubber logo" />
+          <div className="work-item" on>
+            <img src="./assets/phubber.png" alt="Phubber logo" h />
             <div className="company-info">
-              <h2>Phubber</h2>
+              <a href="https://beta.phubber.ge/">Phubber</a>
               <h3>Mobile Application Tester/Analitycs</h3>
               <p>2021 June - 2022 June</p>
               <p>
@@ -21,11 +21,11 @@ const WorkExperience = () => {
             </div>
           </div>
         </li>
-        <li className="work-experience-list-item">
+        <li className="work-experience-list-item" href="">
           <div className="work-item">
             <img src="./assets/fina.jpg" alt="Fina Logo" />
             <div className="company-info">
-              <h2>Fina</h2>
+              <a href="https://fina.ge/">Fina</a>
               <h3>Full-Stack Software Engineer</h3>
               <p>2023 March - Ongoing</p>
               <p>

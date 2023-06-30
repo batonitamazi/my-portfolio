@@ -78,6 +78,11 @@ img {
   margin-bottom: 5px;
   color: #ff69b4;
 }
+.company-info a {
+  font-size: 32px;
+  margin-bottom: 5px;
+  color: #ff69b4;
+}
 
 .company-info h3 {
   font-size: 18px;
