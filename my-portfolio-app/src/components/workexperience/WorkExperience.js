@@ -8,7 +8,7 @@ const WorkExperience = () => {
       <ul className="working-experience-list">
         <li className="work-experience-list-item">
           <div className="work-item" on>
-            <img src="./assets/phubber.png" alt="Phubber logo" h />
+            <img src="./assets/phubber.png" alt="Phubber logo" />
             <div className="company-info">
               <a href="https://beta.phubber.ge/">Phubber</a>
               <h3>Mobile Application Tester/Analitycs</h3>
@@ -21,7 +21,7 @@ const WorkExperience = () => {
             </div>
           </div>
         </li>
-        <li className="work-experience-list-item" href="">
+        <li className="work-experience-list-item">
           <div className="work-item">
             <img src="./assets/fina.jpg" alt="Fina Logo" />
             <div className="company-info">
