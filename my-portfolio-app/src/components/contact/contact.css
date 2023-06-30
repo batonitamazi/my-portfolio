@@ -1,9 +1,9 @@
 #contact {
   background-color: #aedbf7;
-  margin-top: 50px;
 }
 #contact h1 {
   color: #1e90ff;
+  margin-top: 50px;
 }
 
 .contact-form-container {
@@ -59,6 +59,15 @@ textarea {
   padding: 10px;
   border: none;
   border-radius: 4px;
+}
+input[type="text"],
+input[type="email"] {
+  height: 30px;
+}
+input[type="text"],
+input[type="email"],
+textarea:focus {
+  outline: blue;
 }
 
 button[type="submit"],
@@ -145,8 +154,7 @@ button[type="submit"]:focus,
 }
 
 .footer-links li a:hover {
-  color: #ff0000;
-  transform: translateY(-100px) rotate(360deg) translateZ(0);
+  transform: translateY(-15px) rotate(360deg) translateZ(0);
 }
 
 .footer-links li a:hover:before {
