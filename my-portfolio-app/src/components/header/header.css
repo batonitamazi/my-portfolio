@@ -54,3 +54,9 @@ nav ul li:hover::after {
   width: 100%;
   background-color: #e9c456; /* Final color after animation */
 }
+
+@media (max-width: 600px) {
+  nav ul li {
+    margin: 2em;
+  }
+}

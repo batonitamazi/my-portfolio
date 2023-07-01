@@ -168,3 +168,33 @@ button[type="submit"]:focus,
 .footer-links li a:hover:before {
   transform: scaleY(1);
 }
+@media (max-width: 600px) {
+  #contact h1 {
+    font-size: 24px;
+  }
+  .contact-form {
+    width: 95%;
+  }
+  .contact-form h2 {
+    font-size: 20px;
+  }
+  form {
+    width: 98%;
+  }
+  form label {
+    font-size: 20px;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 65%;
+  }
+  button[type="submit"] {
+    font-size: 18px;
+  }
+  .resume-button {
+    font-size: 18px;
+    height: 8%;
+    width: 70%;
+  }
+}

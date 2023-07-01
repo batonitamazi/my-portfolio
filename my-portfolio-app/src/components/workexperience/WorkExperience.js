@@ -12,8 +12,8 @@ const WorkExperience = () => {
             <div className="company-info">
               <a href="https://beta.phubber.ge/">Phubber</a>
               <h3>Mobile Application Tester/Analitycs</h3>
-              <p>2021 June - 2022 June</p>
-              <p>
+              <p className="date-paragraph">2021 June - 2022 June</p>
+              <p className="description">
                 I was working on Ecommerce Mobile Application written in React
                 native ⚛️. I was writing test cases and doing some bug 🪲
                 analytics 🔍
@@ -27,8 +27,8 @@ const WorkExperience = () => {
             <div className="company-info">
               <a href="https://fina.ge/">Fina</a>
               <h3>Full-Stack Software Engineer</h3>
-              <p>2023 March - Ongoing</p>
-              <p>
+              <p className="date-paragraph">2023 March - Ongoing</p>
+              <p className="description">
                 I am working on a Full Stack ERP Systems, which is Written in
                 Angular and asp.net core Framework so am doing Full Stacking
                 things 😁

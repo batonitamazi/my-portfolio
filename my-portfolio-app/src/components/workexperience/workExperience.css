@@ -8,6 +8,9 @@
   width: 100%;
   height: 100%;
 }
+.company-info a {
+  text-decoration: none;
+}
 
 #work h1 {
   padding-top: 100px;
@@ -107,4 +110,43 @@ img {
 .right-column p {
   font-size: 16px;
   color: #555555;
+}
+@media (max-width: 600px) {
+  #work h1 {
+    padding-top: 20px;
+  }
+  .work-experience-list-item {
+    width: 95%;
+  }
+  .work-item {
+    align-items: flex-start;
+  }
+  .work-item img {
+    height: 45%;
+    width: 45%;
+  }
+  .company-info {
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .company-info a {
+    font-size: 28px;
+  }
+  .description {
+    margin: 0px;
+    width: 150%;
+    padding-right: 120px;
+    padding-top: 5px;
+  }
+}
+@media (max-width: 400px) {
+  .description {
+    margin: 0px;
+    width: 150%;
+    padding: 0px;
+    padding-right: 100px;
+  }
 }
